@@ -15,4 +15,10 @@ public class DemoController {
         return "springboot_ecs_codepipeline";
     }
 
+    @GetMapping("/getApp")
+    public  String getApp()
+    {
+        return "springboot_ecs_codepipeline for CI/CD";
+    }
+
 }
